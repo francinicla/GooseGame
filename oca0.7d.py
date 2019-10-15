@@ -47,7 +47,7 @@ def name(number):
 
     """ Choice players number """
     if Board.game_active != 0:
-        Board.mylist.insert(END, "Non puoi cambiare il numero", "dei giocatori con il gioco in corso")
+        Board.mylist.insert(END, "You can't change the number", "of players in started game")
 
     else:
         Board.giocatori = []
