@@ -15,7 +15,7 @@ class Menub:
                 window.destroy()
 
         def maboutinfo():
-            messagebox.showinfo(title="About", message="GIOCO DELL' OCA\n\nCreated by\n\nClaudio Francini")
+            messagebox.showinfo(title="About", message="GIOCO DELL' OCA\n\nCreated by\n\nRoberto Francini")
 
         """ Create conf windows menu """
 
@@ -143,7 +143,7 @@ class Board:
     scrollbar = Scrollbar(testo)
     scrollbar.grid(row=1, column=2, rowspan=22, sticky='ns')
     mylist = Listbox(testo, yscrollcommand=scrollbar.set, width=28, height=22)
-    mylist.insert(END, "Benvenuti al gioco dell'oca", "", "Per cominciare", "selezionare i giocatori nel menu", "")
+    mylist.insert(END, "Welcome to the 'Gioco dell'oca'", "", "Per cominciare", "selezionare i giocatori nel menu", "")
     mylist.grid(row=1, column=1, rowspan=22)
     mylist.see("end")
     scrollbar.config(command=mylist.yview)
