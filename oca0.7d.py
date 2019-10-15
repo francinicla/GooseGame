@@ -15,7 +15,7 @@ class Menub:
                 window.destroy()
 
         def maboutinfo():
-            messagebox.showinfo(title="About", message="GIOCO DELL' OCA\n\nCreated by\n\nClaudio Francini")
+            messagebox.showinfo(title="About", message="GIOCO DELL' OCA\n\nCreated by\n\nRoberto Francini")
 
         """ Create conf windows menu """
 
