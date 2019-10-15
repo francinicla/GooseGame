@@ -95,8 +95,8 @@ def name(number):
                     .grid(row=5, column=4, padx=5)
                 Board.player_list = ["Pippo", "Pluto", "Paperino", "Topolino"]
 
-        Board.mylist.insert(END, "Hai selezionato {} giocatori".format(Board.n_players))
-        Board.mylist.insert(END, "Ora devi tirare il dado", "per scegliere chi comincia", "")
+        Board.mylist.insert(END, "You have selected {} players".format(Board.n_players))
+        Board.mylist.insert(END, "Now you must roll the dice", "to choice who starts", "")
 
         Board.bconf.update()
         # gioco = Game()
